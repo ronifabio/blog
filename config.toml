@@ -1,0 +1,213 @@
+baseurl = "https://ronifabio.github.io/blog"
+title = "ronifabio"
+copyright = "Copyright &copy; 2017"
+theme = "academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "ronifabio"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  name = "Roni Fabio Banaszewski"
+  role = "Professor do curso de Tecnologia em Sistemas para Internet - TSI"
+  organization = "Universidade Tecnológica Federal do Paraná - UTFPR"
+  avatar = "portrait.gif"
+  email = "banaszewski@utfpr.edu.br"
+  address = "Bloco B, Sala B10, UTFPR - Campus Guarapuava, Av. Profa. Laura Pacheco Bastos, 800 - Industrial, Guarapuava - PR, 85053-525"
+
+  phone = "(41) 996-380-414"
+  skype = ""
+  telegram = ""
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = "ronifabio"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "02/01/2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  # Highlight.js options
+  #   highlight
+  #     Enable global source code highlighting?  If false, you can
+  #     override it for a particular page in that page's preamble.
+  #
+  #     Example: highlight = true
+  #
+  #   highlight_languages
+  #     Add support for highlighting additional languages. Support for
+  #     languages mentioned here will be included in all pages. You
+  #     can also set this variable for a particular page in that
+  #     page's preamble.
+  #
+  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
+  #
+  #   highlight_style
+  #     Choose a different CSS style for highlighting source
+  #     code. Setting this option in a page's preamble has no
+  #     effect.
+  #
+  #     Example: highlight_style = "github-gist"
+  #
+  #   highlight_version
+  #     Choose the version of highlight.js you want. Setting this
+  #     option in a page's preamble has no effect.
+  #
+  #     Example: highlight_version = "9.9.0"
+  #
+  #   For the list of supported languages, styles, and versions, see:
+  #   https://cdnjs.com/libraries/highlight.js/
+  #
+  #   For more info on the highlighting options, see:
+  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+  highlight = true
+  highlight_languages = []
+  # highlight_style = "github"
+  # highlight_version = "9.9.0"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'TCC',  # 0
+    'Anais de Congresso',  # 1
+    'Periódico',  # 2
+    'Em andamento',  # 3
+    'Relatório Técnico',  # 4
+    'Livro',  # 5
+    'Capítulo de livro',  # 6
+    'Dissertação de Mestrado',  # 7
+    'Tese de Doutorado'  # 8
+  ]
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:banaszewski@utfpr.edu.br"
+
+  [[params.social]]
+    icon = "facebook"
+    icon_pack = "fa"
+    link = "//facebook.com/ronifabio"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/ronifabio"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/ronifabio"
+
+  [[params.social]]
+    icon = "mortar-board"
+    icon_pack = "fa"
+    link = "http://lattes.cnpq.br/4097469570844584"
+
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Início"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Defesas"
+  url = "#thesis"
+  weight = 2
+
+[[menu.main]]
+  name = "Disciplinas"
+  url = "#teaching"
+  weight = 3
+
+[[menu.main]]
+  name = "Projetos"
+  url = "#projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Orientações"
+  url = "#publications"
+  weight = 5
+
+[[menu.main]]
+  name = "Anais de Congressos"
+  url = "#papers-congress"
+  weight = 6
+
+[[menu.main]]
+  name = "Periódicos"
+  url = "#papers"
+  weight = 7
+
+[[menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 8
+
+[[menu.main]]
+  name = "Contato"
+  url = "#contact"
+  weight = 9
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+
+# Languages
+#   Create a [languages.X] block for each language you want, where X is the language ID.
+
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "pt-BR"
