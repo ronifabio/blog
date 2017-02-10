@@ -1,9 +1,11 @@
 +++
 date = "2016-04-20T12:00:00"
-draft = false
+draft = true
 image = "banners/getting-started.png"
 tags = ["academic", "hugo"]
-title = "Getting started with the Academic framework for Hugo"
+categories = ["JSF", "sdfJavasss"]
+title = "JSF e Java"
+subtitle = "dsfsdf"
 math = true
 summary = "Create a beautifully simple personal or academic website in under 10 minutes."
 +++

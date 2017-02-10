@@ -1,25 +1,25 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-02-10"
 
 # Project title.
-title = "No Excel"
+title = "SOS-GP"
 
 # Project summary to display on homepage.
-summary = "Um sistema para controles de pré-pagamentos de refeições para restaurantes universitários."
+summary = "Um sistema para chamada de serviços de emergência e urgência por deficientes auditivos."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "no-excel.jpg"
+image_preview = "sos-gp.png"
 
 # Optional image to display on project detail page (relative to `static/img/` folder).
-image = "no-excel.jpg"
+image = "sos-gp.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["projeto-extensao"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/utfpr-gp/no-excel"
+external_link = "https://bitbucket.org/account/user/utfpr-gp/projects/SOS"
 
 # Does the project detail page use math formatting?
 math = false

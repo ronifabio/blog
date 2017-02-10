@@ -18,6 +18,8 @@ defaultContentLanguageInSubdir = false
 [blackfriday]
   hrefTargetBlank = true
 
+
+
 [params]
   name = "Roni Fabio Banaszewski"
   role = "Professor do curso de Tecnologia em Sistemas para Internet - TSI"
@@ -29,6 +31,8 @@ defaultContentLanguageInSubdir = false
   phone = "(41) 996-380-414"
   skype = ""
   telegram = ""
+
+  categories = ["Java", "JSF", "Hibernate", "JavaScript", "Angular", "GWT"]
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "ronifabio"
@@ -190,14 +194,14 @@ defaultContentLanguageInSubdir = false
   weight = 7
 
 [[menu.main]]
-  name = "Blog"
-  url = "#posts"
+  name = "Posts"
+  url = "#blog"
   weight = 8
 
 [[menu.main]]
   name = "Contato"
   url = "#contact"
-  weight = 9
+  weight = 10
 
 # Taxonomies.
 [taxonomies]
