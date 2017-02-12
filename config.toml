@@ -169,7 +169,7 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Disciplinas"
+  name = "Atividades"
   url = "#teaching"
   weight = 3
 
